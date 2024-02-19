@@ -1,0 +1,66 @@
+.flex{
+display:flex;
+
+}
+.items-center{
+    align-items:center;
+}
+.rigg
+{
+    justify-content: space-between;
+}
+.btn{
+padding: 0.5rem 3rem;
+font-size: 1rem;
+font-weight: 700;
+border: .2em solid transparent;
+outline: none;
+cursor :pointer;
+transition: all .3sec ease;
+}
+
+
+
+.btn-pri {
+    background-color: var(--primary);
+    color: var(--secondary);
+    /* position: relative; */
+    
+    text-transform: uppercase;
+
+}
+
+
+
+
+.btn-pri:hover {
+    background:transparent; 
+    border-color: var(--primary);
+    color: var(--primary);
+
+}
+
+.btn-sec{
+    background:transparent;
+    color:var(--primary);
+    border-color:var(--primary);
+}
+.btn-sec:hover{
+    background:var(--primary);
+    color:var(--secondary);
+}
+
+
+
+  .flex-1 {
+    flex: 1;
+    /* Add margin property to control the spacing between the elements */
+    margin-right: 10px; /* Adjust this value as needed */
+  }
+  
+
+
+.justify-center{
+    justify-content: center;
+}
+
